@@ -30,7 +30,7 @@ This output is not an error because it correclty changed from the original direc
 bash: cd: ar-dz.txt: Not a directory
 ```
 
-The working directory remain unchanged when the command is ran with a `ar-dz.txt` as an argument. 
+The working directory is `home/lecture1/messages` when the command is ran with a `ar-dz.txt` as an argument. 
 This is because `ar-dz.txt` is not a valid argument for this command, thus the working directory does not change. 
 This is not an error because I ran the command with an invalid argument, as the output states that the file is not directory, so the directory will remain unchanged. 
 
@@ -93,6 +93,6 @@ cat: lecture1: Is a directory
 [user@sahara ~]$ cat lecture1/messages/zh-cn.txt
 你好世界
 ```
-The working directory was `home/lecture1/messages/zh-cn.txt`.
+The working directory was `home`.
 When the `cat` command is ran with `home/lecture1/messages/zh-cn.txt` as an argument, the output would be what's inside the `zh-cn.txt` file.
 This is not an error because `你好世界` is inside the `zh-cn.txt` file, which is identitical to the output. 
