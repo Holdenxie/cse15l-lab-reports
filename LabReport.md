@@ -32,7 +32,7 @@ bash: cd: ar-dz.txt: Not a directory
 
 The working directory is `home/lecture1/messages` when the command is ran with a `ar-dz.txt` as an argument. 
 This is because `ar-dz.txt` is not a valid argument for this command, thus the working directory does not change. 
-This is not an error because I ran the command with an invalid argument, as the output states that the file is not directory, so the directory will remain unchanged. 
+The output is an error message because I ran the command with an invalid argument, as the output states that the file is not directory.
 
 ## `ls` command with no argument
 
@@ -66,7 +66,7 @@ ls: cannot access 'ar-dz.txt': No such file or directory
 
 The working directory was `home` when the command is ran. 
 when the `ls` command is ran with the file`ar-dz.txt`, no file is listed, instead an error message was listed. 
-This is not an error because there is no additional files within the `ar-dz.txt` for their to be listed. 
+This is an error message because it takes in a diretory rather than a file as an argument and there is no additional files within the `ar-dz.txt` file for their to be listed. 
 
 ## `cat` command with no argument 
 
@@ -76,7 +76,7 @@ This is not an error because there is no additional files within the `ar-dz.txt`
 ```
 
 The working directory was `home` when the command is ran. 
-When the `cat` command is ran with no argument, no output is given because the commands reads the file and gives it an output. 
+When the `cat` command is ran with no argument, where there is input, no output is given because the commands reads the file and gives it an output. 
 This is not an error because no argument was given, so there would not be any output. 
 
 ## `cat` command with a `directory` as an argument 
@@ -85,7 +85,9 @@ This is not an error because no argument was given, so there would not be any ou
 [user@sahara ~]$ cat lecture1
 cat: lecture1: Is a directory
 ```
-
+The working directory was `home` when the command is ran. 
+When the cat command is ran with `lecture1` as the argument, an error message is outputted because the `cat` command cannot reads what's in a directory.
+This is an error message because it takes in files as arguments rather than directories. 
 
 ## `cat` command with a `file` as an argument 
 
