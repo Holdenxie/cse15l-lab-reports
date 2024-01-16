@@ -31,5 +31,5 @@ bash: cd: ar-dz.txt: Not a directory
 ```
 
 The working directory remain unchanged when the command is ran with a `ar-dz.txt` as an argument. 
-This is because `ar.dz.txt` is not a valid argument for this command, thus the working directory does not change. 
-This is not an error because I ran the command with an invalid argument, as the output states that the file is not directory. 
+This is because `ar-dz.txt` is not a valid argument for this command, thus the working directory does not change. 
+This is not an error because I ran the command with an invalid argument, as the output states that the file is not directory, so the directory will remain unchanged. 
