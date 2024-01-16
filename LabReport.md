@@ -8,7 +8,7 @@
 ```
 
 The working directory is `home` when the command is ran with no arguments.
-Though the command changes dirctory, but there isn't any input to change the directory to, so the directory remains unchanged. 
+Though the command changes dirctory, but there isn't any input to change the directory to, due to the lack of input, so the directory remains unchanged. 
 The output is not an error because it started and ended in the same directory. 
 
 ## `cd` comamnd with a `directory` as an argument 
