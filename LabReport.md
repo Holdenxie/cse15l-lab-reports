@@ -41,9 +41,9 @@ The output is an error message because I ran the command with an invalid argumen
 lecture1
 ```
 The working direcotry was `home` when the command is ran. 
-When the `ls` command is ran with no argument, it will list all the files in the current directory.
-Since `lecture1` is the only file in the current directory, it is the only one that is listed.
-The output is not an error because it represents all the file within the `home` directory.
+When the `ls` command is ran with no argument, it will list all the files and directories in the current directory.
+Since `lecture1` is the only directory in the current directory, it is the only one that is listed.
+The output is not an error because it represents all the direcotires and files within the `home` directory.
 
 ## `ls` command with a `directory` as an argument 
 
