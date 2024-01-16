@@ -8,7 +8,7 @@
 ```
 
 The working directory is `home` when the command is ran with no arguments.
-Though the command changes dirctory, but there isn't any input so the directory remains unchanged. 
+Though the command changes dirctory, but there isn't any input to change the directory to, so the directory remains unchanged. 
 The output is not an error because it started and ended in the same directory. 
 
 ## `cd` comamnd with a `directory` as an argument 
@@ -45,3 +45,54 @@ When the `ls` command is ran with no argument, it will list all the files in the
 Since `lecture1` is the only file in the current directory, it is the only one that is listed.
 The output is not an error because it represents all the file within the `home` directory.
 
+## `ls` command with a `directory` as an argument 
+
+```
+[user@sahara ~]$ ls lecture1
+Hello.class  Hello.java  messages  README
+```
+
+The working direcotry was `home` when the command is ran. 
+When the `ls` command is ran with `lecture1` as the argument, it will list all the files within `lecture1`. 
+Since there are multiple files within `lecture1`, all those is listed. 
+The output is not an error because only and all the files within `lecture1` are listed.
+
+## `ls` command with a `file` as an argument 
+
+```
+[user@sahara ~]$ ls ar-dz.txt
+ls: cannot access 'ar-dz.txt': No such file or directory
+```
+
+The working directory was `home` when the command is ran. 
+when the `ls` command is ran with the file`ar-dz.txt`, no file is listed, instead an error message was listed. 
+This is not an error because there is no additional files within the `ar-dz.txt` for their to be listed. 
+
+## `cat` command with no argument 
+
+```
+[user@sahara ~]$ cat
+
+```
+
+The working directory was `home` when the command is ran. 
+When the `cat` command is ran with no argument, no output is given because the commands reads the file and gives it an output. 
+This is not an error because no argument was given, so there would not be any output. 
+
+## `cat` command with a `directory` as an argument 
+
+```
+[user@sahara ~]$ cat lecture1
+cat: lecture1: Is a directory
+```
+
+
+## `cat` command with a `file` as an argument 
+
+```
+[user@sahara ~]$ cat lecture1/messages/zh-cn.txt
+你好世界
+```
+The working directory was `home/lecture1/messages/zh-cn.txt`.
+When the `cat` command is ran with `home/lecture1/messages/zh-cn.txt` as an argument, the output would be what's inside the `zh-cn.txt` file.
+This is not an error because `你好世界` is inside the `zh-cn.txt` file, which is identitical to the output. 
