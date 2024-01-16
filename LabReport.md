@@ -1,7 +1,7 @@
 # **Haolin Xie's Lab Report**
 
 ## `cd` command with no argument
-```bash
+```
 [user@sahara ~]$ cd
 [user@sahara ~]$ pwd
 /home
@@ -13,7 +13,7 @@ The output is not an error because it started and ended in the same directory.
 
 ## `cd` comamnd with a `directory` as an argument 
 
-```bash
+```
 [user@sahara ~]$ cd lecture1
 [user@sahara ~/lecture1]$ pwd
 /home/lecture1
@@ -25,7 +25,7 @@ This output is not an error because it correclty changed from the original direc
 
 ## `cd` command with a `file` as an argument 
 
-```bash
+```
 [user@sahara ~/lecture1/messages]$ cd ar-dz.txt
 bash: cd: ar-dz.txt: Not a directory
 ```
