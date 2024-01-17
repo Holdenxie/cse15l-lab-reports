@@ -8,7 +8,8 @@
 ```
 
 The working directory is `home` when the command is ran with no arguments.
-Though the command changes dirctory, but there isn't any input to change the directory to, due to the lack of input, so the directory remains unchanged. 
+When no argument is given to the cd command, the current directory will be changed to the user's home directory. 
+In this case, the working directory is already the user's home directory, therefore, there is no changes to the directory. 
 The output is not an error because it started and ended in the same directory. 
 
 ## `cd` comamnd with a `directory` as an argument 
@@ -30,9 +31,9 @@ This output is not an error because it correclty changed from the original direc
 bash: cd: ar-dz.txt: Not a directory
 ```
 
-The working directory is `home/lecture1/messages` when the command is ran with a `ar-dz.txt` as an argument. 
+The working directory is `home/lecture1/messages` when the command is ran with `ar-dz.txt` as an argument. 
 This is because `ar-dz.txt` is not a valid argument for this command, thus the working directory does not change. 
-The output is an error message because I ran the command with an invalid argument, as the output states that the file, `ar-dz.txt` is not directory.
+The output is an error message because I ran the command with an invalid argument, as the output states that the file, `ar-dz.txt` is not a directory.
 
 ## `ls` command with no argument
 
@@ -60,13 +61,14 @@ The output is not an error because only and all the files within `lecture1` are 
 ## `ls` command with a `file` as an argument 
 
 ```
-[user@sahara ~]$ ls ar-dz.txt
-ls: cannot access 'ar-dz.txt': No such file or directory
+[user@sahara ~/lecture1/messages]$ ls ar-dz.txt
+ar-dz.txt
 ```
 
-The working directory was `home` when the command is ran. 
-when the `ls` command is ran with the file`ar-dz.txt`, no file is listed, instead an error message was listed. 
-This is an error message because it takes in a diretory rather than a file as an argument and there is no additional files within the `ar-dz.txt` file for their to be listed. 
+The working directory was `home/lectur1/messages` when the command is ran. 
+when the `ls` command is ran with the file `ar-dz.txt`, itself is listed.
+This is because the file `ar.dz.txt` only contains itself, thus it can only list itself. 
+This is not an error message because the expected output and the output are identical. 
 
 ## `cat` command with no argument 
 
