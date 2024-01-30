@@ -1,2 +1,2 @@
 # Lab Report2
-![image]
+![image][Screenshot 2024-01-30 002338.png]
