@@ -50,7 +50,7 @@
 ````
 
 ## First input 
-![image](https://github.com/Holdenxie/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20002338.png)
+![Image](Image1.png)
 In this, the `handleRequest` method is called. 
 The revelent argument for the method is the URL. In this case, the value of URL is `https://0-0-0-0-8000-0ata91q98g0td8an4lpl4b18ps.us.edusercontent.com/add-messages?s=gradres&user=hello'. 
 The variable `messages`, `user` and `chat` are changed according to the input. In this case the `message` varible becomes `gradres` and the `user` is `hello`.
