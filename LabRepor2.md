@@ -64,12 +64,19 @@ The variable `messages`, `user` and `chat` are changed according to the input. I
 This is the second input, therefore, the variable `chat` stored previous inputs, which will also be printed out. 
 So chat at this instance would be `hello: gradres\ bug: how are you`. However, the space is replaced by the `+` sign. Lastly, the value of the url changes 
 
-## Screenshot of public key 
-![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214009.png)
+
 
 ## Screenshot of private key 
 ![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214238.png)
+This is the absolute path to the private key. 
+
+## Screenshot of public key 
+![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214009.png)
+This is the absolute path to the private key. This can be found by first login into your `ieng6` account, 
 
 ## Scrneeshot of logging in without asking for password 
 ![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214321.png)
+I can now log into my `ieng6` account without promopted for entering a password from this computer. 
 
+## Learned from lab 2 and 3 
+I learned how to set up a server, where I should use a port that's not been used by ohters. I can design my server to give the user some output when the user gives certiain inputs. I also learned how to set up a key that allows my computer to login to my `ieng6` account without entering the password every time. 
