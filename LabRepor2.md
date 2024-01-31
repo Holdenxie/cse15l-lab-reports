@@ -1,4 +1,4 @@
-# Lab Report2
+# Haolin Xie's Lab Report2
 
 ````java
     import java.io.IOException;
