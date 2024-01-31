@@ -1,4 +1,54 @@
 # Lab Report2
+
+````java
+    import java.io.IOException;
+    import java.net.URI;
+    
+    class Handler implements URLHandler {
+        // The one bit of state on the server: a number that will be manipulated by
+        // various requests
+        String chat = "";
+        String messages;
+        char and = '&';
+        int index = 0; 
+        String user;
+    
+        public String handleRequest(URI url) {
+            if (url.getPath().equals("/")){
+                return String.format(chat);
+            } 
+            else {
+                if (url.getPath().contains("/add-message")) {
+                    String[] parameters = url.getQuery().split("=");
+                    user = parameters[2];
+                    for(int i = 0; i < parameters[1].length(); i++){
+                        if(parameters[1].charAt(i) == and){
+                            index = i;
+                        }
+                    }
+                    messages = parameters[1].substring(0, index);
+                    chat = chat + user + ": " + messages + "\n";
+                    return String.format(chat);
+                }
+                return "404 Not Found!";
+            }
+        }
+    }
+    
+    class ChatServer {
+        public static void main(String[] args) throws IOException {
+            if(args.length == 0){
+                System.out.println("Missing port number! Try any number between 1024 to 49151");
+                return;
+            }
+    
+            int port = Integer.parseInt(args[0]);
+    
+            Server.start(port, new Handler());
+        }
+    }
+````
+
 ## First input 
 ![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20002338.png)
 In this, the `handleRequest` method is called. 
