@@ -70,3 +70,6 @@ So chat at this instance would be `hello: gradres\ bug: how are you`. However, t
 ## Screenshot of private key 
 ![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214238.png)
 
+## Scrneeshot of logging in without asking for password 
+![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214321.png)
+
