@@ -71,7 +71,7 @@ So chat at this instance would be `hello: gradres\ bug: how are you`. However, t
 This is the absolute path to the private key. This can be found by first logging into your `ieng6` account, then enter the `ls` command with the argument `~/.ssh/authorized_keys`.
 
 ## Screenshot of public key 
-![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214009.png) <br> 
+![image](https://github.com/Holdenxie/cse15l-lab-reports/blob/main/Screenshot%202024-01-30%20214009.png) <br> 
 This is the absolute path to the private key. This can be found by simply entering the `ls` command with the path that the public key is located in. 
 
 ## Scrneeshot of logging in without asking for password 
