@@ -63,3 +63,10 @@ The revelent argument for the method is the URL, which most likely to change for
 The variable `messages`, `user` and `chat` are changed according to the input. In this case the `message` varible becomes `hello how are you` and the `user` is `bug`.
 This is the second input, therefore, the variable `chat` stored previous inputs, which will also be printed out. 
 So chat at this instance would be `hello: gradres\ bug: how are you`. However, the space is replaced by the `+` sign. Lastly, the value of the url changes 
+
+## Screenshot of public key 
+![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214009.png)
+
+## Screenshot of private key 
+![image](https://github.com/Holdenxie/Image1/blob/main/Screenshot%202024-01-30%20214238.png)
+
