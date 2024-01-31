@@ -67,15 +67,15 @@ So chat at this instance would be `hello: gradres\ bug: how are you`. However, t
 
 
 ## Screenshot of private key 
-![image](Image4.png) <br> 
+![Image](Image4.png) <br> 
 This is the absolute path to the private key. This can be found by first logging into your `ieng6` account, then enter the `ls` command with the argument `~/.ssh/authorized_keys`.
 
 ## Screenshot of public key 
-![image](Image3.png) <br> 
+![Image](Image3.png) <br> 
 This is the absolute path to the private key. This can be found by simply entering the `ls` command with the path that the public key is located in. 
 
 ## Scrneeshot of logging in without asking for password 
-![image](Image5.png) <br> 
+![Image](Image5.png) <br> 
 I can now log into my `ieng6` account without promopted for entering a password from this computer. 
 
 ## Learned from lab 2 and 3 
