@@ -39,6 +39,6 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ````
-This implementation transfers elements from array given to a new array in a reversed order. 
 Before the fix, it adds elements from a newly created (empty) array to the current array. 
-
+By adding elements from an empty array, elements added will always be empty.
+With the change, this implementation transfers elements from array given to a new array in a reversed order. 
