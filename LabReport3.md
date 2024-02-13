@@ -18,3 +18,14 @@
 ## Symtomps of the outputs
 ![Image](Image3.1.png)
 
+## Bug before the fix 
+```Java
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+````
+
