@@ -29,7 +29,8 @@ static int[] reversed(int[] arr) {
   }
 ````
 
-## After the change 
+## After the fix 
+````Java
  static int[] reversed(int[] arr) {
     int[] newArray = new int[arr.length];
     for(int i = 0; i < arr.length; i += 1) {
@@ -37,4 +38,5 @@ static int[] reversed(int[] arr) {
     }
     return `newArray`;
   }
+````
 
