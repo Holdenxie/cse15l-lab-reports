@@ -16,4 +16,5 @@
   }
 ````
 ## Symtomps of the outputs
+![Image](Image3.1.png)
 
