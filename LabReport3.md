@@ -83,7 +83,7 @@ Output: `./technical/911report`<br>
 This command is useful when you trying to find the location of a directory that you know the name of. <br> 
 
 `find -size [+|-]` - finds files that greater than or less than the size inputted <br>
-Input: 'find -size +1M' <br>
+Input: `find -size +1M` <br>
 Output: `./.git/objects/pack/pack-f3e64844a2bd252cbb7d4b547cb60beb349fd441.pack` <br>
 Input: `$ find -size +1G` <br>
 Output: ` ` - because there is no files that has a file size larger than 1G, no files is listed. <br> 
