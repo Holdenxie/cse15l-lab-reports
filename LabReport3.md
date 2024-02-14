@@ -89,7 +89,14 @@ Input: `$ find -size +1G` <br>
 Output: ` ` - because there is no files that has a file size larger than 1G, no files is listed. <br> 
 This commands find lists all the files that above or below the inputted size. This is useful when trying to see when files that exceeds or recedes a certain size. You can use this command to find the files that stores all your data when trying to reset your statistics for a game. <br>
 
-`find -name [expression] -exec [command] {} \;` - finds the file(s) and excecute the command <br>
+`find -name[file names] -exec rm[] \; - finds the file(s) and delete it <br>
+Input: `find -name "chapter-3.txt" -exec rm {} \;` <br>
+Output: ` ` - there is no output <br>
+Input: `find -name "chapter-2.txt" -exec rm {} \;` <br>
+Output: ` ` - there is no output <br>
+This command deletes the founded files. This can be useful by allowing the user to delete multiple founded files all at once, improving their efficiency. <br>
+
+`find -name [file names] -exec [command] {} \;` - finds the file(s) and excecute the command <br>
 Input: `find -name "chapter-1.txt" -exec cat {} \;` <br>
 Output: `"WE HAVE SOME PLANES"`
 
