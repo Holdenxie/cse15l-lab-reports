@@ -44,7 +44,7 @@ By adding elements from an empty array, elements added will always be empty.
 With the change, this implementation transfers elements from array given to a new array in a reversed order. 
 
 ## Research `find` command
-Promp given to ChatGPT: `how to use the bash command find` (<br>)
+Promp given to ChatGPT: `how to use the bash command find` <br>
 ChatGPT output: The find command in Bash is a powerful tool for searching for files and directories in a directory hierarchy. Here's a basic syntax:
 
 find [directory] [options] [expression]
