@@ -96,5 +96,5 @@ Output: `"WE HAVE SOME PLANES"`
     `Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some m
 ade their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon
 . Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tou
-r. In Sarasota, Florida, President George W. Bush went for an early morning run.`...
+r. In Sarasota, Florida, President George W. Bush went for an early morning run.`
 
