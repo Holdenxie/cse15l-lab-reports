@@ -87,4 +87,5 @@ Input: 'find -size +1M' <br>
 Output: `./.git/objects/pack/pack-f3e64844a2bd252cbb7d4b547cb60beb349fd441.pack` <br>
 Input: `$ find -size +1G` <br>
 Output: ` ` - because there is no files that has a file size larger than 1G, no files is listed. <br> 
+This command is useful when trying to see when files that exceeds or recedes a certain size. You can use this command to find the files that stores all your data when trying to reset your statistics for a game. <br>
 
