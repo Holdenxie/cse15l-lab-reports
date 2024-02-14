@@ -43,7 +43,7 @@ Before the fix, it adds elements from a newly created (empty) array to the curre
 By adding elements from an empty array, elements added will always be empty.
 With the change, this implementation transfers elements from array given to a new array in a reversed order. 
 
-## Research `find` command
+# Research `find` command
 Promp given to ChatGPT: `how to use the bash command find` <br>
 ChatGPT output: The find command in Bash is a powerful tool for searching for files and directories in a directory hierarchy. Here's a basic syntax:
 
@@ -71,3 +71,11 @@ Expressions:
 -size +1M: Finds files larger than 1 megabyte.
 -user username: Finds files owned by a specific user.
 -perm mode: Finds files with specific permissions.
+
+The output serves a guide for me to understand the funcationality of the command. I did not change any output, but rather use it in my own context. 
+
+## Find
+find -type d -name - this commands finds the directory with the inputted name 
+`$ find -type d -name biomed
+./technical/biomed
+`
