@@ -80,14 +80,14 @@ Input: `$ find -type d -name biomed` <br>
 Output: `./technical/biomed` <br>
 Input: `$ find -type d -name 911report` <br>
 Output: `./technical/911report`<br>
-This command is useful when you trying to find the location of a directory that you know the name of. <br> 
+This command finds the location of given directory name annd is useful when you trying to find the location of a directory that you know the name of. <br> 
 
 `find -size [+|-]` - finds files that greater than or less than the size inputted <br>
 Input: `find -size +1M` <br>
 Output: `./.git/objects/pack/pack-f3e64844a2bd252cbb7d4b547cb60beb349fd441.pack` <br>
 Input: `$ find -size +1G` <br>
 Output: ` ` - because there is no files that has a file size larger than 1G, no files is listed. <br> 
-This command is useful when trying to see when files that exceeds or recedes a certain size. You can use this command to find the files that stores all your data when trying to reset your statistics for a game. <br>
+This commands find lists all the files that above or below the inputted size. This is useful when trying to see when files that exceeds or recedes a certain size. You can use this command to find the files that stores all your data when trying to reset your statistics for a game. <br>
 
 `find -name [expression] -exec [command] {} \; - finds the file(s) and excecute the command` <br>
 Input: `find -name "chapter-1.txt" -exec cat {} \;` <br>
@@ -96,6 +96,7 @@ Output: `"WE HAVE SOME PLANES"`
    `Tuesday, September 11, 2001, dawned temperate and nearly cloudless in the eastern United States. Millions of men and women readied themselves for work. Some made their way to the Twin Towers, the signature structures of the World Trade Center complex in New York City. Others went to Arlington, Virginia, to the Pentagon. Across the Potomac River, the United States Congress was back in session. At the other end of Pennsylvania Avenue, people began to line up for a White House tour. In Sarasota, Florida, President George W. Bush went for an early morning run.`... <br>
 Input: `find -name "chapter-1.txt" -exec wc {} \;` <br>
 Output: `731  19260 118656 ./technical/911report/chapter-1.txt` <br>
+This commands finds the file and execute the given command. This is useful because it acts as a short cut for finding and executing, which improves efficiency.
    
 
 
