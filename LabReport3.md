@@ -75,7 +75,9 @@ Expressions:
 The output serves a guide for me to understand the funcationality of the command. I did not change any output, but rather use it in my own context. 
 
 ## Find
-find -type d -name - this commands finds the directory with the inputted name <br>
-`$ find -type d -name biomed` <br>
-`./technical/biomed`
+`find -type d -name` - this commands finds the directory with the inputted name <br>
+Input: `$ find -type d -name biomed` <br>
+Output: `./technical/biomed` <br>
+Input: `$ find -type d -name 911report` <br>
+Output: `./technical/911report`<br>
 
