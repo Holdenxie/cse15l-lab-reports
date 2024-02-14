@@ -76,6 +76,6 @@ The output serves a guide for me to understand the funcationality of the command
 
 ## Find
 find -type d -name - this commands finds the directory with the inputted name 
-`$ find -type d -name biomed <br>
-./technical/biomed
-`
+`$ find -type d -name biomed` <br>
+`./technical/biomed`
+
