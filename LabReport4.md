@@ -1,7 +1,8 @@
 # Lab Report 3
 ## log into ieng6
 I used the `ssh` command to log into ieng6. In this case, `ieng6-202` is being connected. 
-``` PS C:\Users\holde> ssh hax036@ieng6.ucsd.edu
+```
+PS C:\Users\holde> ssh hax036@ieng6.ucsd.edu
 Last login: Tue Feb 27 20:24:00 2024 from 128.54.173.18
 quota: Cannot resolve mountpoint path /home/linux/ieng6/.snapshot/hourly.2024-02-19_2001: Stale file handle
 quota: Cannot resolve mountpoint path /home/linux/ieng6/.snapshot/hourly.2024-02-19_1601: Stale file handle
@@ -27,4 +28,17 @@ Cluster Status
 Hostname     Time    #Users  Load  Averages  
 ieng6-201   20:30:01   19  0.29,  0.65,  0.63
 ieng6-202   20:30:01   23  0.22,  0.26,  0.22
-ieng6-203   20:30:01   7   0.00,  0.10,  0.25 ```
+ieng6-203   20:30:01   7   0.00,  0.10,  0.25 
+```
+
+# Clone the repository
+I used the `git clone` command followed by my `ssh url` to clone the repository into my local computer.
+When the repository of the fork is copied, the command `ctrl+shift+v` will allow you to paste it.
+```
+[hax036@ieng6-202]:~:118$ git clone git@github.com:Holdenxie/lab7.git
+Cloning into 'lab7'...
+remote: Enumerating objects: 58, done.
+remote: Total 58 (delta 0), reused 0 (delta 0), pack-reused 58
+Receiving objects: 100% (58/58), 376.39 KiB | 1.64 MiB/s, done.
+Resolving deltas: 100% (21/21), done.
+```
