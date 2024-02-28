@@ -31,7 +31,7 @@ ieng6-202   20:30:01   23  0.22,  0.26,  0.22
 ieng6-203   20:30:01   7   0.00,  0.10,  0.25 
 ```
 
-# Clone the repository
+## Clone the repository
 I used the `git clone` command followed by my `ssh url` to clone the repository into my local computer.
 When the repository of the fork is copied, the command `ctrl+shift+v` will allow you to paste it.
 ```
@@ -43,7 +43,7 @@ Receiving objects: 100% (58/58), 376.39 KiB | 1.64 MiB/s, done.
 Resolving deltas: 100% (21/21), done.
 ```
 
-# Run the test 
+## Run the test 
 Before running the test, I changed to `lab7` through the `cd` command. 
 ```
 [hax036@ieng6-202]:~:120$ cd lab7
@@ -58,3 +58,14 @@ typed in the correct class path.
 ```
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExampleTests
 ```
+## Editing the code 
+I entered `vim` to edit the code by the following 
+```
+[hax036@ieng6-202]:lab7:125$ vim ListExamples.java
+```
+After I entered vim I entered `:set number` to show the line number of each line. Then I pressed the `<up>` and `<right>` key multiples times
+until I reached line 44 and I used the `x` command to delte `1` and then use the `i` the command to insert `2`. Once I finished I used `:wq` to 
+save and exit, then presed `<enter>` to quit vim. 
+```
+
+## Rerun the test 
