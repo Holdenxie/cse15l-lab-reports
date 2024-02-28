@@ -100,3 +100,5 @@ After doing this, you may fix the identity used for this commit with:
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
+The changes can then be pushed through the `git push` command. 
+
