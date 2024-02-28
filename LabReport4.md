@@ -42,3 +42,19 @@ remote: Total 58 (delta 0), reused 0 (delta 0), pack-reused 58
 Receiving objects: 100% (58/58), 376.39 KiB | 1.64 MiB/s, done.
 Resolving deltas: 100% (21/21), done.
 ```
+
+# Run the test 
+Before running the test, I changed to `lab7` through the `cd` command. 
+```
+[hax036@ieng6-202]:~:120$ cd lab7
+```
+Then I compiled the java files using the command `javac` 
+```
+javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+```
+Then I ran the code with the following. Since the class path is needed to be modified, I pressed `<up>` to get previous command 
+and pressed `ctrl+shift+e` to get to the back of the line and pressed the `backspace` key to delete the existing class path and used the `i` 
+command to type in the class path. 
+```
+java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExampleTests
+```
