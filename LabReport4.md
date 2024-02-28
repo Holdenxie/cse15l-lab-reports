@@ -63,9 +63,40 @@ I entered `vim` to edit the code by the following
 ```
 [hax036@ieng6-202]:lab7:125$ vim ListExamples.java
 ```
+```
 After I entered vim I entered `:set number` to show the line number of each line. Then I pressed the `<up>` and `<right>` key multiples times
 until I reached line 44 and I used the `x` command to delte `1` and then use the `i` the command to insert `2`. Once I finished I used `:wq` to 
 save and exit, then presed `<enter>` to quit vim. 
 ```
 
 ## Rerun the test 
+I reran the test with the following the command and all the tests passed. 
+```
+[hax036@ieng6-202]:lab7:126$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+[hax036@ieng6-202]:lab7:127$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamplesTests
+JUnit version 4.13.2
+..
+Time: 0.014
+
+OK (2 tests)
+```
+
+## Committing and Pushing 
+the command `git command -a` is used to commit changes. This then opens a vim window forcing you to leave a commit message. 
+```
+Committer: Haolin Xie <hax036@ieng6-202.ucsd.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
