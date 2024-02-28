@@ -53,8 +53,8 @@ Then I compiled the java files using the command `javac`
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 ```
 Then I ran the code with the following. Since the class path is needed to be modified, I pressed `<up>` to get previous command 
-and pressed `ctrl+shift+e` to get to the back of the line and pressed the `backspace` key to delete the existing class path and used the `i` 
-command to type in the class path. 
+and pressed `<right>` multiples times to get to the back of the line and pressed the `backspace` key to delete the existing class path and 
+typed in the correct class path. 
 ```
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExampleTests
 ```
