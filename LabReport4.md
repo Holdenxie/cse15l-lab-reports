@@ -1,4 +1,4 @@
-# Lab Report 3
+# Lab Report 4
 ## log into ieng6
 I used the `ssh` command to log into ieng6. In this case, `ieng6-202` is being connected. 
 ```
