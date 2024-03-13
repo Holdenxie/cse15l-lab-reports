@@ -15,10 +15,10 @@ Following your hint, I did some modifications to my `reverseList`. In the beginn
 Inside the `Lab5` folder, there is the `Main.java`, which is where the program is located, and `grade.sh`, which is it compiles and runs the java file `Main.java`
 ### content of the file 
 This the code in `Main.java` before the bug is fixed. On the left of the image, the directories and files are shown. 
-<br>![Image](Image7.png) <br>
+<br>![Image](Image8.png) <br>
 <br>
 This is the content in `Grade.sh`
-<br>![Image](Image8.png) <br>
+<br>![Image](Image9.png) <br>
 ### Command to trigger the bug 
 The command to trigger the bug is `bash Grade.sh`, which compiles and executes java file `Main.java`
 ### Fixing the bug 
